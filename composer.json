@@ -1,0 +1,45 @@
+{
+    "name": "golem/auth-storage-aura",
+    "description": "Aura Session storage adapter for Golem Auth",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jonathan Bernardi",
+            "email": "jon@jonbernardi.com",
+            "homepage": "https://www.thedevfiles.com"
+        }
+    ],
+    "require": {
+        "php": "~5.6|~7.0",
+        "golem/auth": "^1.0",
+        "aura/session": "^2.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.5",
+        "squizlabs/php_codesniffer": "^2.7"
+    },
+    "autoload": {
+        "classmap": [
+            "src/AuraSessionStorage.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Golem\\Auth\\Storage\\AuraSession\\Test\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "phpunit",
+        "check-style": "phpcs -p --standard=PSR2 --runtime-set ignore_errors_on_exit 1 --runtime-set ignore_warnings_on_exit 1 src",
+        "fix-style": "phpcbf -p --standard=PSR2 --runtime-set ignore_errors_on_exit 1 --runtime-set ignore_warnings_on_exit 1 src"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
