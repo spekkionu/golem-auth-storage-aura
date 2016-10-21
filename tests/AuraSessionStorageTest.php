@@ -1,14 +1,20 @@
 <?php
 namespace Golem\Auth\Storage\AuraSession\Test;
 
+use Aura\Session\SegmentInterface;
 use Golem\Auth\Storage\AuraSessionStorage;
 
 class AuraSessionStorageTest extends \PHPUnit_Framework_TestCase
 {
     /**
-     * @var MemoryStorage
+     * @var AuraSessionStorage
      */
     private $storage;
+
+    /**
+     * @var SegmentInterface
+     */
+    private $session;
 
     public function setUp()
     {
