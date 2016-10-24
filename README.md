@@ -4,7 +4,7 @@
 [![Build Status](https://travis-ci.org/spekkionu/golem-auth-storage-aura.svg?branch=master)](https://travis-ci.org/spekkionu/golem-auth-storage-aura)
 [![Code Coverage](https://scrutinizer-ci.com/g/spekkionu/golem-auth-storage-aura/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/spekkionu/golem-auth-storage-aura/?branch=master)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/spekkionu/golem-auth-storage-aura/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/spekkionu/golem-auth-storage-aura/?branch=master)
-[![Total Downloads](https://poser.pugx.org/golem/auth-storage-aura/downloads.png)](https://packagist.org/packages/golem/auth-storage-aura)
+[![SensioLabsInsight](https://insight.sensiolabs.com/projects/413b7245-efc7-4c63-bacb-e106e5d80f6d/mini.png)](https://insight.sensiolabs.com/projects/413b7245-efc7-4c63-bacb-e106e5d80f6d)
 
 Aura Session storage adapter for Golem Auth
 
